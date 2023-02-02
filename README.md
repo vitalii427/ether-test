@@ -1,11 +1,26 @@
 # Simple smart contract and JS scripts
 
+## Init:
 ```shell
-# run Script1 & Script2
-node index.js
+yarn
 ```
 
-Output:
+## Run smart contract tests:
+```shell
+npx hardhat test
+```
+
+## Deploy smart contract:
+```shell
+npx hardhat node
+npx hardhat run scripts/deploy.js
+```
+
+## Run Script1 & Script2:
+```shell
+node index.js
+```
+## Output:
 ```
 Script 1:
 To Address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
@@ -26,15 +41,4 @@ Script 2:
 Max Sender: 0x46340b20830761efd32832A74d7169B29FEB9758 [15 sends]
 Max Receiver: 0xA090e606E30bD747d4E6245a1517EbE430F0057e [97 recvs]
 Max Gas Price: 0.000000324 ether
-```
-
-Run smart contract tests:
-```shell
-npx hardhat test
-```
-
-Deploy smart contract:
-```shell
-npx hardhat node
-npx hardhat run scripts/deploy.js
 ```
