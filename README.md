@@ -2,6 +2,9 @@
 
 ## Init:
 ```shell
+git clone https://github.com/vitalii427/ether-test.git
+cd ether-test
+
 yarn
 ```
 
