@@ -17,7 +17,7 @@ describe("SimpleContract", function () {
     return { simple, owner, otherAccount };
   }
 
-  describe("Tests", function () {
+  describe("Deployment", function () {
     it("Should set zero balance", async function () {
       const { simple } = await loadFixture(deployDefaultFixture);
 
