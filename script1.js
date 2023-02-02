@@ -4,7 +4,6 @@ const {
   getErc20CallDetails,
   getTransactionDetails,
   prepareErc20TranferInputData,
-  getBlockData,
 } = require("./lib/ether-test.js");
 
 const InfuraProvider = new ethers.providers.InfuraProvider(
@@ -36,16 +35,4 @@ async function Script1() {
   );
 }
 
-async function Script2() {
-  await getBlockData(InfuraProvider, 13507875);
-}
-
-async function main() {
-  console.log("Script 1:");
-  await Script1();
-
-  console.log("\nScript 2:");
-  await Script2();
-}
-
-main();
+Script1();
