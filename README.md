@@ -37,7 +37,7 @@ Block 13507871:
 ```shell
 node script1.js
 ```
-## Output:
+### Output:
 ```
 Transaction details for 0x2ad2bb00718ab0ed8310dacff9c029ea5d41e038d96c9f52561a1e7948759e99:
 To Address: 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
@@ -65,7 +65,7 @@ Next block mined by 0xea674fdde714fd979de3edf0f56aa9716b898ec8 is 13507875
 ```shell
 node script2.js
 ```
-## Output:
+### Output:
 ```
 Max Sender: 0x46340b20830761efd32832A74d7169B29FEB9758 [15 sends]
 Max Receiver: 0xA090e606E30bD747d4E6245a1517EbE430F0057e [97 recvs]
