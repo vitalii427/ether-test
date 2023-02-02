@@ -17,7 +17,10 @@ npx hardhat test
 
 ## Deploy smart contract:
 ```shell
+# run local test node
 npx hardhat node
+
+# deploy
 npx hardhat run scripts/deploy.js
 ```
 
