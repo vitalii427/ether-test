@@ -24,6 +24,15 @@ npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
 
+## Etherscan task 1
+```
+Block 13507871:
+1. Mined by 0xea674fdde714fd979de3edf0f56aa9716b898ec8 (Ethermine)
+2. Block contains 74 transactions
+3. Transaction sent by 0x71660c4005ba85c37ccec55d0c4493e66fe775d3 (Coinbase 1):
+        0x2ad2bb00718ab0ed8310dacff9c029ea5d41e038d96c9f52561a1e7948759e99 
+```
+
 ## Run Script1
 ```shell
 node script1.js
@@ -43,6 +52,11 @@ Call: transfer(0x3Be960FEF469FEe13A34A475f5b57E9ec2A98998,108000000)
         - transfer() amount: 108.0 USDC
 Encoded input data to transfer 100 undefined to 0x85b931A32a0725Be14285B66f1a22178c672d69B:
         0xa9059cbb00000000000000000000000085b931a32a0725be14285b66f1a22178c672d69b0000000000000000000000000000000000000000000000056bc75e2d63100000
+```
+
+## Etherscan task 2
+```
+Next block mined by 0xea674fdde714fd979de3edf0f56aa9716b898ec8 is 13507875
 ```
 
 ## Run Script2:
