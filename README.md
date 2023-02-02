@@ -1,4 +1,4 @@
-# Hardhat Project with simple smart contract and JS scripts
+# Simple smart contract and JS scripts
 
 ```shell
 # run Script1 & Script2
