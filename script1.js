@@ -39,10 +39,11 @@ async function Script1() {
   const strAmount = "100";
 
   const contract = getErc20Contract(InfuraProvider, tokenContractAddress);
-  const { symbol, decimals } = await Promise.all([
+  const [ symbol, decimals ] = await Promise.all([
     contract.symbol(),
     contract.decimals(),
   ]);
+
   const data = await prepareErc20TranferInputData(
     contract,
     recipientAddress,
