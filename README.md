@@ -28,11 +28,13 @@ Max Receiver: 0xA090e606E30bD747d4E6245a1517EbE430F0057e [97 recvs]
 Max Gas Price: 0.000000324 ether
 ```
 
+Run smart contract tests:
 ```shell
-# run smart contract tests
 npx hardhat test
+```
 
-# deploy smart contract
+Deploy smart contract:
+```shell
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
