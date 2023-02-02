@@ -5,6 +5,11 @@
 yarn
 ```
 
+## Compile smart contract:
+```shell
+npx hardhat compile
+```
+
 ## Run smart contract tests:
 ```shell
 npx hardhat test
